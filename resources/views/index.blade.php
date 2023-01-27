@@ -7,7 +7,7 @@
     <title>فروشگاه</title>
 </head>
 <body>
-  <a href="{{route('add')}}">افزودن کالا</a>
+  {{-- <a href="{{route('add')}}">افزودن کالا</a> --}}
       <h3>kala list </h3>
     <table>
       <thead>

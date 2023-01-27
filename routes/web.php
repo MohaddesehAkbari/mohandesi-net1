@@ -19,6 +19,6 @@ Route::get('/', function () {
 });
 Route::get('kala', [kalacontroller::class, 'index']);
 
-Route::get('kala',[kalacontroller::class, 'add'] )->name('add');
-Route::post('add', [kalacontroller::class, 'create'])->name('addpost');
+//Route::get('kala',[kalacontroller::class, 'add'] )->name('add');
+//Route::post('add', [kalacontroller::class, 'create'])->name('addpost');
 

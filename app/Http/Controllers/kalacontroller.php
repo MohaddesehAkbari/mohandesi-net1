@@ -13,15 +13,15 @@ class kalacontroller extends Controller
     public function index() {
         $kala = kala::all();
         //dd($kala);
-        return view('kala.index',['kala'=>$kala]);
+        return view('index',['kala'=>$kala]);
     }
 
-        public function add(){
-            return view('kala.add');
-    }
-    public function create()
-    {
-        dd('yess');
-    }
+    // public function add(){
+    //     return view('add');
+    // }
+    // public function create()
+    // {
+    //     dd('yess');
+    // }
 }
 
